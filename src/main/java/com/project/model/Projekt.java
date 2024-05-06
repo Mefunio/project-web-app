@@ -38,6 +38,6 @@ public class Projekt {
 
     @JsonIgnoreProperties({"projekt"})
     private List<Zadanie> zadania;
-    private Set<Student> studenci;
+    private Set<Student> students;
 
 }

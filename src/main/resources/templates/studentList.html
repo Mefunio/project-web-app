@@ -10,11 +10,11 @@
 <div class="root">
     <h1>Lista studentów</h1>
     <p>
-        <a th:href="@{/studentList}">Lista Studentów</a>
-        <a th:href="@{/zadanieList}">Lista zadań</a>
+        <a th:href="@{/projektList}">Lista Projektów</a>
+        <a th:href="@{/zadanieList}">Lista Zadań</a>
     </p>
     <p>
-        <a th:href="@{/projektEdit}">Dodaj projekt</a>
+        <a th:href="@{/studentEdit}">Dodaj studenta</a>
     </p>
     <table>
         <thead>
@@ -29,7 +29,7 @@
         </tr>
         </thead>
         <tbody>
-        <tr th:each="student : ${studenci}">
+        <tr th:each="student : ${students}">
             <td th:text="${student.studentId}">Id</td>
             <td th:text="${student.imie}">Imie</td>
             <td th:text="${student.nazwisko}">Nazwisko</td>

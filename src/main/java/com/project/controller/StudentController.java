@@ -24,7 +24,7 @@ public class StudentController {
 
 	@GetMapping("/studentList")
 	public String studentList(Model model, Pageable pageable) {
-		model.addAttribute("studenci", studentService.getStudenci(pageable).getContent());
+		model.addAttribute("students", studentService.getStudents(pageable).getContent());
 		return "studentList";
 	}
 
@@ -45,7 +45,7 @@ public class StudentController {
 			return "studentEdit";
 		}
 		try {
-			student = studentService.setStudent(student);
+			studentService.setStudent(student);
 		} catch (HttpStatusCodeException e) {
 			bindingResult.rejectValue(Strings.EMPTY, String.valueOf(e.getStatusCode().value()),
 					e.getStatusCode().toString());
