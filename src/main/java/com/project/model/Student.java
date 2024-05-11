@@ -9,7 +9,6 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 
 import java.util.List;
-import java.util.Set;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 @Data
@@ -32,5 +31,5 @@ public class Student {
 
     @JsonIgnoreProperties({"student"})
     private List<Projekt> projekty;
-    private Set<Zadanie> zadania;
+    private List<Zadanie> zadania;
 }

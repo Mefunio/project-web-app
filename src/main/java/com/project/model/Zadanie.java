@@ -1,5 +1,8 @@
 package com.project.model;
 import java.time.LocalDateTime;
+import java.util.List;
+import java.util.Set;
+
 import org.springframework.data.annotation.Id;
 import org.springframework.format.annotation.DateTimeFormat;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -29,9 +32,10 @@ public class Zadanie {
     @Size(max = 1000, message = "Pole opis może zawierać maksymalnie {max} znaków!")
     private String opis;
 
-    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss.SSS")
+    @DateTimeFormat(pattern = "dd-MM-yyyy HH:mm:ss.SSS")
     private LocalDateTime dataCzasDodania;
 
-    @JsonIgnoreProperties({ "projekt" })
-    private Projekt projekt;
+    @JsonIgnoreProperties({ "zadanie" })
+    private Set<Projekt> projekty;
+    private List<Student> students;
 }

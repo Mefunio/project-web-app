@@ -1,39 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
 .root {
     text-align: center;
+    padding: 20px;
 }
+
 .container {
     text-align: left;
     display: inline-block;
+    max-width: 800px;
+    margin: 0 auto;
 }
+
 .fld {
-    padding: 5px 5px 5px 5px;
-    margin: 5px 5px 5px 5px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid darkGray;
+    border-radius: 5px;
 }
+
 .btn {
-    padding: 5px 10px 5px 10px;
-    margin: 5px 5px 5px 5px;
+    padding: 10px 20px;
+    margin: 10px;
     cursor: pointer;
+    background-color: #bbbbbb;
+    border: 2px solid #9a9a9a; /* Add border */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
+
+.btn:hover {
+    background-color: darkGray;
+}
+
 .btns-panel {
     border: 1px solid darkGray;
-    background: lightGray;
+    background: #dddddd;
     margin-bottom:15px;
     text-align:center;
+    padding: 10px;
 }
+
 .lbl {
     display: block;
-    margin: 10px 5px 0 5px;
+    margin: 5px 5px;
+    font-size: 1.1em;
 }
+
+.container div {
+    margin-bottom: 10px;
+}
+
 span.err, label.err {
     color: red;
+    font-weight: bold;
 }
+
 div.err {
     background-color: #ffcccc;
     border: 2px solid red;
     text-align: left;
+    padding: 10px;
+    margin: 10px 0;
 }
+
 textarea.err {
     background-color: #ffcccc;
-    padding: 5px 5px 5px 5px;
-    margin: 5px 5px 5px 5px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid red;
 }
