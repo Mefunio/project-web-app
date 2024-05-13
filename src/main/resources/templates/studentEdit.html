@@ -22,6 +22,7 @@
                 <input class="btn" type="submit" name="create" value="create" th:name="${akcja}" th:value="${opis}" />
                 <input class="btn" type="submit" name="cancel" value="Anuluj" />
             </div>
+            <br>
             <div th:if="*{studentId}">
                 <label for="studentId" class="lbl">Id:</label>
                 <input type="number" th:field="*{studentId}" class="fld" id="studentId" readonly />
@@ -46,11 +47,11 @@
                 <input type="email" th:field="*{email}" class="fld" id="email" th:class="${#fields.hasErrors('email')}? 'err' : 'fld'" size="45" />
                 <span class="err" th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Error</span>
             </div>
-                <div>
-                    <label for="stacjonarny" class="lbl">Stacjonarny:</label>
-                    <input type="checkbox" th:field="*{stacjonarny}" class="fld" id="stacjonarny" th:class="${#fields.hasErrors('stacjonarny')}? 'err' : 'fld'" size="45" />
-                    <span class="err" th:if="${#fields.hasErrors('stacjonarny')}" th:errors="*{stacjonarny}">Error</span>
-                </div>
+            <div>
+                <label for="stacjonarny" class="lbl">Stacjonarny:</label>
+                <input type="checkbox" th:field="*{stacjonarny}" class="fld" id="stacjonarny" th:class="${#fields.hasErrors('stacjonarny')}? 'err' : 'fld'" size="45" />
+                <span class="err" th:if="${#fields.hasErrors('stacjonarny')}" th:errors="*{stacjonarny}">Error</span>
+            </div>
         </div>
     </form>
 </div>

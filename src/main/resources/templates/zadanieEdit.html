@@ -10,7 +10,7 @@
     <form action="#" th:action="@{/zadanieEdit}" th:object="${zadanie}" method="POST"
           th:with="akcja=*{zadanieId} ? (${isDelete}?'delete':'update') :'create', opis=*{zadanieId} ?
 (${isDelete}?'Usuń':'Aktualizuj') : 'Utwórz'" autocomplete="off">
-        <h1 th:text="${opis} + ' projekt'">Edytuj zadanie</h1>
+        <h1 th:text="${opis} + ' zadanie'">Edytuj zadanie</h1>
         <div class="err" th:if="${#fields.hasErrors('*')}">
             BŁĘDY:
             <ul>
@@ -22,6 +22,7 @@
                 <input class="btn" type="submit" name="create" value="create" th:name="${akcja}" th:value="${opis}" />
                 <input class="btn" type="submit" name="cancel" value="Anuluj" />
             </div>
+            <br>
             <div th:if="*{zadanieId}">
                 <label for="zadanieId" class="lbl">Id:</label>
                 <input type="number" th:field="*{zadanieId}" class="fld" id="zadanieId" readonly />

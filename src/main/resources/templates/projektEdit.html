@@ -22,6 +22,7 @@
                 <input class="btn" type="submit" name="create" value="create" th:name="${akcja}" th:value="${opis}" />
                 <input class="btn" type="submit" name="cancel" value="Anuluj" />
             </div>
+            <br>
             <div th:if="*{projektId}">
                 <label for="projektId" class="lbl">Id:</label>
                 <input type="number" th:field="*{projektId}" class="fld" id="projektId" readonly />

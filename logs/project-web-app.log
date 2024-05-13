@@ -1,462 +1,64 @@
-2024-05-11 17:31:55.481 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 99205 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 17:31:55.485 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 17:31:56.347 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.066 seconds (process running for 1.362)
-2024-05-11 17:32:05.985 [http-nio-8081-exec-4] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 17:32:10.788 [http-nio-8081-exec-6] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 17:32:11.854 [http-nio-8081-exec-8] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 17:32:12.520 [http-nio-8081-exec-10] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 17:32:12.983 [http-nio-8081-exec-2] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 17:32:21.754 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 17:34:17.750 [http-nio-8081-exec-10] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 17:34:20.975 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 17:34:21.900 [http-nio-8081-exec-7] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 17:34:23.149 [http-nio-8081-exec-9] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 17:34:25.014 [http-nio-8081-exec-2] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 17:34:25.838 [http-nio-8081-exec-4] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 17:40:10.048 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 99447 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 17:40:10.049 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 17:40:10.920 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.085 seconds (process running for 1.473)
-2024-05-11 17:40:14.858 [http-nio-8081-exec-1] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 17:40:18.727 [http-nio-8081-exec-4] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 17:40:20.695 [http-nio-8081-exec-6] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 17:40:23.224 [http-nio-8081-exec-9] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 17:42:38.417 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 99560 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 17:42:38.418 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 17:45:17.415 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 99593 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 17:45:17.415 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 17:45:18.232 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.01 seconds (process running for 1.306)
-2024-05-11 17:45:22.090 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 17:45:23.753 [http-nio-8081-exec-3] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 17:45:26.958 [http-nio-8081-exec-5] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 17:45:27.889 [http-nio-8081-exec-7] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 17:45:29.406 [http-nio-8081-exec-9] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 17:45:30.621 [http-nio-8081-exec-1] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 17:45:31.753 [http-nio-8081-exec-3] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 17:45:32.537 [http-nio-8081-exec-5] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 17:45:33.156 [http-nio-8081-exec-7] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 17:45:33.854 [http-nio-8081-exec-9] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 17:45:34.489 [http-nio-8081-exec-1] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 17:45:36.004 [http-nio-8081-exec-3] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 17:51:15.592 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 99823 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 17:51:15.593 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 17:51:16.493 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.108 seconds (process running for 1.719)
-2024-05-11 17:51:19.981 [http-nio-8081-exec-1] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 17:51:21.252 [http-nio-8081-exec-3] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 17:51:24.415 [http-nio-8081-exec-10] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 17:51:28.856 [http-nio-8081-exec-7] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 17:52:25.182 [http-nio-8081-exec-1] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 17:52:29.443 [http-nio-8081-exec-8] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 17:52:31.266 [http-nio-8081-exec-9] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 17:52:34.344 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 17:52:35.631 [http-nio-8081-exec-8] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 17:52:37.420 [http-nio-8081-exec-6] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 17:52:39.099 [http-nio-8081-exec-7] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 17:52:42.972 [http-nio-8081-exec-4] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 17:53:13.209 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 99861 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 17:53:13.209 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 17:53:14.021 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.008 seconds (process running for 1.512)
-2024-05-11 17:53:18.509 [http-nio-8081-exec-1] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 17:53:19.649 [http-nio-8081-exec-3] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 17:53:26.260 [http-nio-8081-exec-10] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 17:53:47.768 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 99885 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 17:53:47.769 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 17:53:48.591 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.01 seconds (process running for 1.319)
-2024-05-11 17:53:54.862 [http-nio-8081-exec-1] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 17:53:56.248 [http-nio-8081-exec-3] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 17:53:58.263 [http-nio-8081-exec-7] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 17:53:59.945 [http-nio-8081-exec-9] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 17:54:01.764 [http-nio-8081-exec-1] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 17:54:02.615 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 17:54:03.715 [http-nio-8081-exec-7] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 17:54:36.148 [http-nio-8081-exec-7] INFO  c.project.service.ZadanieServiceImpl.setZadanie(71) - REQUEST -> POST /api/zadania
-2024-05-11 17:57:37.070 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 99992 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 17:57:37.071 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 17:57:37.921 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.044 seconds (process running for 1.354)
-2024-05-11 17:57:48.076 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 17:57:50.178 [http-nio-8081-exec-3] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 17:57:58.001 [http-nio-8081-exec-9] INFO  c.project.service.ZadanieServiceImpl.setZadanie(71) - REQUEST -> POST /api/zadania
-2024-05-11 17:57:58.153 [http-nio-8081-exec-9] INFO  c.project.service.ZadanieServiceImpl.setZadanie(83) - REQUEST (location) -> GET http://localhost:8080/api/zadania/1
-2024-05-11 17:57:58.256 [http-nio-8081-exec-10] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 17:58:49.477 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 121 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 17:58:49.478 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 17:58:50.311 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.024 seconds (process running for 1.432)
-2024-05-11 17:58:53.193 [http-nio-8081-exec-1] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 17:59:00.780 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 17:59:01.560 [http-nio-8081-exec-7] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 17:59:02.344 [http-nio-8081-exec-9] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 17:59:03.027 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 17:59:03.895 [http-nio-8081-exec-4] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:02:00.768 [http-nio-8081-exec-8] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:02:03.042 [http-nio-8081-exec-10] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:02:05.457 [http-nio-8081-exec-2] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:02:07.795 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:02:09.975 [http-nio-8081-exec-8] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:02:10.924 [http-nio-8081-exec-2] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:02:12.424 [http-nio-8081-exec-6] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:02:32.161 [http-nio-8081-exec-1] INFO  c.project.service.ZadanieServiceImpl.setZadanie(71) - REQUEST -> POST /api/zadania
-2024-05-11 18:02:32.268 [http-nio-8081-exec-1] INFO  c.project.service.ZadanieServiceImpl.setZadanie(83) - REQUEST (location) -> GET http://localhost:8080/api/zadania/2
-2024-05-11 18:02:32.362 [http-nio-8081-exec-10] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:02:43.628 [http-nio-8081-exec-7] INFO  c.project.service.ZadanieServiceImpl.setZadanie(71) - REQUEST -> POST /api/zadania
-2024-05-11 18:02:43.761 [http-nio-8081-exec-7] INFO  c.project.service.ZadanieServiceImpl.setZadanie(83) - REQUEST (location) -> GET http://localhost:8080/api/zadania/3
-2024-05-11 18:02:43.855 [http-nio-8081-exec-8] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:02:45.311 [http-nio-8081-exec-1] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/3
-2024-05-11 18:02:45.445 [http-nio-8081-exec-1] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/3
-2024-05-11 18:02:48.745 [http-nio-8081-exec-6] INFO  c.project.service.ZadanieServiceImpl.setZadanie(58) - REQUEST -> PUT /api/zadania/3
-2024-05-11 18:02:48.903 [http-nio-8081-exec-3] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:02:50.342 [http-nio-8081-exec-7] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/3
-2024-05-11 18:02:50.474 [http-nio-8081-exec-7] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/3
-2024-05-11 18:02:52.495 [http-nio-8081-exec-10] INFO  c.project.service.ZadanieServiceImpl.deleteZadanie(99) - REQUEST -> DELETE /api/zadania/3
-2024-05-11 18:02:52.636 [http-nio-8081-exec-4] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:02:55.456 [http-nio-8081-exec-6] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:02:56.892 [http-nio-8081-exec-8] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:03:04.983 [http-nio-8081-exec-6] INFO  c.project.service.StudentServiceImpl.setStudent(69) - REQUEST -> POST /api/students
-2024-05-11 18:03:15.776 [http-nio-8081-exec-9] INFO  c.project.service.StudentServiceImpl.setStudent(69) - REQUEST -> POST /api/students
-2024-05-11 18:03:55.313 [http-nio-8081-exec-7] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:04:15.475 [http-nio-8081-exec-6] INFO  c.project.service.StudentServiceImpl.setStudent(69) - REQUEST -> POST /api/students
-2024-05-11 18:05:52.061 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 336 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 18:05:52.062 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 18:05:53.229 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.411 seconds (process running for 1.74)
-2024-05-11 18:05:59.478 [http-nio-8081-exec-4] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:06:01.113 [http-nio-8081-exec-7] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:06:16.903 [http-nio-8081-exec-4] INFO  c.project.service.ProjektServiceImpl.setProjekt(66) - REQUEST -> POST /api/projekty
-2024-05-11 18:06:17.060 [http-nio-8081-exec-4] INFO  c.project.service.ProjektServiceImpl.setProjekt(78) - REQUEST (location) -> GET http://localhost:8080/api/projekty/6
-2024-05-11 18:06:17.171 [http-nio-8081-exec-6] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:06:18.891 [http-nio-8081-exec-8] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/6
-2024-05-11 18:06:19.027 [http-nio-8081-exec-8] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/6
-2024-05-11 18:06:20.693 [http-nio-8081-exec-2] INFO  c.project.service.ProjektServiceImpl.setProjekt(52) - REQUEST -> PUT /api/projekty/6
-2024-05-11 18:06:20.847 [http-nio-8081-exec-3] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:06:22.324 [http-nio-8081-exec-4] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/6
-2024-05-11 18:06:22.458 [http-nio-8081-exec-4] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/6
-2024-05-11 18:06:23.876 [http-nio-8081-exec-7] INFO  c.project.service.ProjektServiceImpl.deleteProjekt(93) - REQUEST -> DELETE /api/projekty/6
-2024-05-11 18:06:24.030 [http-nio-8081-exec-8] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:06:27.421 [http-nio-8081-exec-2] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:06:28.369 [http-nio-8081-exec-5] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:06:45.652 [http-nio-8081-exec-2] INFO  c.project.service.StudentServiceImpl.setStudent(69) - REQUEST -> POST /api/students
-2024-05-11 18:06:45.789 [http-nio-8081-exec-2] INFO  c.project.service.StudentServiceImpl.setStudent(81) - REQUEST (location) -> GET http://localhost:8080/api/students/2
-2024-05-11 18:06:45.885 [http-nio-8081-exec-3] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:06:47.574 [http-nio-8081-exec-4] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/2
-2024-05-11 18:06:47.710 [http-nio-8081-exec-4] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/2
-2024-05-11 18:06:50.605 [http-nio-8081-exec-9] INFO  c.project.service.StudentServiceImpl.setStudent(56) - REQUEST -> PUT /api/students/2
-2024-05-11 18:06:50.744 [http-nio-8081-exec-10] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:06:53.323 [http-nio-8081-exec-2] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/2
-2024-05-11 18:06:53.458 [http-nio-8081-exec-2] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/2
-2024-05-11 18:06:54.540 [http-nio-8081-exec-5] INFO  c.project.service.StudentServiceImpl.deleteStudent(97) - REQUEST -> DELETE /api/students/2
-2024-05-11 18:06:54.684 [http-nio-8081-exec-6] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:06:55.873 [http-nio-8081-exec-8] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:07:00.723 [http-nio-8081-exec-2] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:07:01.556 [http-nio-8081-exec-4] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:07:02.520 [http-nio-8081-exec-6] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:07:03.322 [http-nio-8081-exec-8] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:07:06.508 [http-nio-8081-exec-2] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/2
-2024-05-11 18:07:06.641 [http-nio-8081-exec-2] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/2
-2024-05-11 18:07:09.298 [http-nio-8081-exec-4] INFO  c.project.service.ZadanieServiceImpl.setZadanie(58) - REQUEST -> PUT /api/zadania/2
-2024-05-11 18:07:09.441 [http-nio-8081-exec-5] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:07:10.923 [http-nio-8081-exec-9] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/2
-2024-05-11 18:07:11.058 [http-nio-8081-exec-9] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/2
-2024-05-11 18:07:12.396 [http-nio-8081-exec-10] INFO  c.project.service.ZadanieServiceImpl.deleteZadanie(99) - REQUEST -> DELETE /api/zadania/2
-2024-05-11 18:07:12.534 [http-nio-8081-exec-2] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:07:39.396 [http-nio-8081-exec-6] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:07:44.165 [http-nio-8081-exec-3] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:10:35.256 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 435 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 18:10:35.257 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 18:10:36.117 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.118 seconds (process running for 1.689)
-2024-05-11 18:10:39.972 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:10:41.070 [http-nio-8081-exec-3] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:10:42.628 [http-nio-8081-exec-5] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/1
-2024-05-11 18:10:42.757 [http-nio-8081-exec-5] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/1
-2024-05-11 18:11:21.738 [http-nio-8081-exec-10] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:11:34.279 [http-nio-8081-exec-4] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/1
-2024-05-11 18:11:34.420 [http-nio-8081-exec-4] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/1
-2024-05-11 18:11:51.191 [http-nio-8081-exec-9] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:12:40.568 [http-nio-8081-exec-3] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/1
-2024-05-11 18:12:40.711 [http-nio-8081-exec-3] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/1
-2024-05-11 18:12:46.365 [http-nio-8081-exec-8] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:13:33.664 [http-nio-8081-exec-1] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:13:37.287 [http-nio-8081-exec-9] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:14:21.660 [http-nio-8081-exec-3] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 18:14:21.806 [http-nio-8081-exec-3] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 18:14:24.826 [http-nio-8081-exec-8] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:14:31.425 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 537 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 18:14:31.426 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 18:14:32.255 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.057 seconds (process running for 1.537)
-2024-05-11 18:14:36.142 [http-nio-8081-exec-1] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:14:38.011 [http-nio-8081-exec-3] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 18:14:38.143 [http-nio-8081-exec-3] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 18:14:40.516 [http-nio-8081-exec-8] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:14:45.758 [http-nio-8081-exec-6] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:14:59.589 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 555 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 18:14:59.589 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 18:15:00.396 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.026 seconds (process running for 1.472)
-2024-05-11 18:15:03.675 [http-nio-8081-exec-1] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:15:05.032 [http-nio-8081-exec-5] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 18:15:05.162 [http-nio-8081-exec-5] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 18:15:10.155 [http-nio-8081-exec-10] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:15:16.558 [http-nio-8081-exec-8] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:15:17.852 [http-nio-8081-exec-9] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:15:19.335 [http-nio-8081-exec-1] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/1
-2024-05-11 18:15:19.468 [http-nio-8081-exec-1] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/1
-2024-05-11 18:15:24.578 [http-nio-8081-exec-6] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:15:30.980 [http-nio-8081-exec-4] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:15:32.333 [http-nio-8081-exec-8] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:16:08.980 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 583 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 18:16:08.980 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 18:16:09.785 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.086 seconds (process running for 1.476)
-2024-05-11 18:16:13.020 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:16:14.033 [http-nio-8081-exec-3] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:16:22.813 [http-nio-8081-exec-2] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:16:25.504 [http-nio-8081-exec-6] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:16:25.638 [http-nio-8081-exec-6] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:16:35.925 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:17:25.832 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/3
-2024-05-11 18:17:25.986 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/3
-2024-05-11 18:18:13.990 [http-nio-8081-exec-9] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:18:15.402 [http-nio-8081-exec-3] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:18:16.674 [http-nio-8081-exec-6] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:18:18.425 [http-nio-8081-exec-10] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:18:39.600 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 654 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 18:18:39.601 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 18:18:40.426 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.039 seconds (process running for 1.707)
-2024-05-11 18:18:44.650 [http-nio-8081-exec-1] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:18:46.593 [http-nio-8081-exec-4] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:18:50.218 [http-nio-8081-exec-2] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:18:52.292 [http-nio-8081-exec-3] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:18:53.291 [http-nio-8081-exec-5] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:18:56.241 [http-nio-8081-exec-8] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:18:59.193 [http-nio-8081-exec-2] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:18:59.327 [http-nio-8081-exec-2] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:19:07.105 [http-nio-8081-exec-6] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:19:11.791 [http-nio-8081-exec-10] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:19:13.275 [http-nio-8081-exec-1] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/1
-2024-05-11 18:19:13.402 [http-nio-8081-exec-1] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/1
-2024-05-11 18:19:14.597 [http-nio-8081-exec-5] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:19:15.637 [http-nio-8081-exec-8] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:19:18.358 [http-nio-8081-exec-2] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:19:18.491 [http-nio-8081-exec-2] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:19:20.364 [http-nio-8081-exec-6] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:19:21.129 [http-nio-8081-exec-9] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:19:22.426 [http-nio-8081-exec-10] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 18:19:22.559 [http-nio-8081-exec-10] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 18:19:24.134 [http-nio-8081-exec-4] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:19:45.016 [http-nio-8081-exec-7] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 18:19:45.161 [http-nio-8081-exec-7] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 18:19:46.909 [http-nio-8081-exec-10] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:20:26.014 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 699 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 18:20:26.015 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 18:20:26.833 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.009 seconds (process running for 1.286)
-2024-05-11 18:20:29.267 [http-nio-8081-exec-1] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:20:31.409 [http-nio-8081-exec-5] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:20:36.553 [http-nio-8081-exec-2] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:20:37.677 [http-nio-8081-exec-4] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 18:20:37.809 [http-nio-8081-exec-4] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 18:20:39.298 [http-nio-8081-exec-7] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:20:40.592 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:20:42.557 [http-nio-8081-exec-3] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:20:42.689 [http-nio-8081-exec-3] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:20:45.868 [http-nio-8081-exec-8] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:20:46.940 [http-nio-8081-exec-10] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:20:48.440 [http-nio-8081-exec-2] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:20:49.762 [http-nio-8081-exec-4] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:20:50.954 [http-nio-8081-exec-7] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:20:51.572 [http-nio-8081-exec-9] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:20:53.074 [http-nio-8081-exec-1] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:20:54.974 [http-nio-8081-exec-4] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:20:58.857 [http-nio-8081-exec-7] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:21:02.238 [http-nio-8081-exec-1] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:21:02.890 [http-nio-8081-exec-3] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:21:03.538 [http-nio-8081-exec-4] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:26:10.407 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 774 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 18:26:10.408 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 18:26:11.225 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.166 seconds (process running for 1.584)
-2024-05-11 18:26:14.431 [http-nio-8081-exec-1] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:26:22.807 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:26:24.005 [http-nio-8081-exec-7] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:26:24.903 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:26:25.923 [http-nio-8081-exec-4] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:26:31.807 [http-nio-8081-exec-7] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:26:33.589 [http-nio-8081-exec-9] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:26:37.017 [http-nio-8081-exec-5] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:28:05.830 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 814 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 18:28:05.831 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 18:28:06.631 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.131 seconds (process running for 1.577)
-2024-05-11 18:28:09.353 [http-nio-8081-exec-1] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:28:53.070 [http-nio-8081-exec-5] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 18:28:53.188 [http-nio-8081-exec-5] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 18:28:55.721 [http-nio-8081-exec-10] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 18:29:34.893 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 853 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 18:29:34.894 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 18:29:35.698 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.105 seconds (process running for 1.492)
-2024-05-11 18:29:38.270 [http-nio-8081-exec-1] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 18:29:39.523 [http-nio-8081-exec-3] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:29:40.696 [http-nio-8081-exec-7] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:29:40.827 [http-nio-8081-exec-7] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:30:15.832 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 869 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 18:30:15.832 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 18:30:16.635 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.001 seconds (process running for 1.407)
-2024-05-11 18:30:19.583 [http-nio-8081-exec-2] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:30:21.299 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:30:21.429 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:30:43.334 [http-nio-8081-exec-10] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:30:44.556 [http-nio-8081-exec-3] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:30:44.701 [http-nio-8081-exec-3] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:30:49.911 [http-nio-8081-exec-7] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:31:10.146 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:31:10.305 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:31:21.925 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 887 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 18:31:21.925 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 18:31:22.752 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.103 seconds (process running for 1.567)
-2024-05-11 18:31:25.770 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:31:25.931 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:31:28.836 [http-nio-8081-exec-4] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:31:30.442 [http-nio-8081-exec-8] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:31:30.575 [http-nio-8081-exec-8] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:31:51.025 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 911 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 18:31:51.026 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 18:31:51.837 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.108 seconds (process running for 1.563)
-2024-05-11 18:31:55.177 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:31:55.331 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:31:56.819 [http-nio-8081-exec-4] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:33:33.737 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 940 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 18:33:33.737 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 18:33:34.586 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.073 seconds (process running for 1.53)
-2024-05-11 18:33:38.131 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:33:38.371 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:33:43.324 [http-nio-8081-exec-6] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:33:45.221 [http-nio-8081-exec-10] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:33:45.354 [http-nio-8081-exec-10] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:33:53.428 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:33:55.067 [http-nio-8081-exec-8] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:33:55.200 [http-nio-8081-exec-8] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:34:03.795 [http-nio-8081-exec-3] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:34:05.938 [http-nio-8081-exec-7] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:34:06.073 [http-nio-8081-exec-7] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:34:21.876 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 960 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 18:34:21.877 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 18:34:22.672 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.091 seconds (process running for 1.53)
-2024-05-11 18:34:25.261 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:34:25.420 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:34:27.620 [http-nio-8081-exec-4] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:34:29.117 [http-nio-8081-exec-6] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:34:29.222 [http-nio-8081-exec-6] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:37:40.958 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 1128 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 18:37:40.959 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 18:37:41.863 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.14 seconds (process running for 1.658)
-2024-05-11 18:37:45.798 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:37:45.981 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:38:44.736 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 1152 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 18:38:44.737 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 18:38:45.528 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 0.986 seconds (process running for 1.309)
-2024-05-11 18:38:48.235 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:38:48.485 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:39:11.025 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 1166 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 18:39:11.026 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 18:39:11.842 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.088 seconds (process running for 1.511)
-2024-05-11 18:39:14.507 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:39:14.685 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:39:41.857 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 1239 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 18:39:41.857 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 18:39:42.774 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.127 seconds (process running for 1.522)
-2024-05-11 18:39:44.924 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:39:45.089 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:39:52.156 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 1264 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 18:39:52.157 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 18:39:52.965 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 0.992 seconds (process running for 1.291)
-2024-05-11 18:39:56.068 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:39:56.221 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:42:03.762 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 1352 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 18:42:03.762 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 18:42:04.542 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.006 seconds (process running for 1.363)
-2024-05-11 18:42:09.318 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:42:09.511 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:42:17.842 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 1358 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 18:42:17.842 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 18:42:18.627 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 0.969 seconds (process running for 1.266)
-2024-05-11 18:42:21.234 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:42:21.380 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:42:42.694 [http-nio-8081-exec-3] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:42:43.373 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:42:43.504 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:46:54.882 [http-nio-8081-exec-10] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 18:46:55.569 [http-nio-8081-exec-2] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:46:55.709 [http-nio-8081-exec-2] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:48:38.718 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 1478 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 18:48:38.719 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 18:48:39.503 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 0.983 seconds (process running for 1.321)
-2024-05-11 18:48:43.675 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:48:43.898 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:55:05.478 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 18:55:05.628 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 19:02:27.635 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 1861 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 19:02:27.636 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 19:02:28.493 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.066 seconds (process running for 1.471)
-2024-05-11 19:02:32.591 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 19:02:32.850 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 19:02:48.468 [http-nio-8081-exec-4] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 19:02:50.664 [http-nio-8081-exec-6] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 19:02:50.796 [http-nio-8081-exec-6] INFO  c.project.service.ProjektServiceImpl.getProjekt(37) - REQUEST -> GET /api/projekty/1
-2024-05-11 19:03:06.955 [http-nio-8081-exec-9] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 19:04:06.080 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 1893 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 19:04:06.081 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 19:04:07.006 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.115 seconds (process running for 1.419)
-2024-05-11 19:04:09.850 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 19:04:17.244 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 1904 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 19:04:17.245 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 19:04:18.041 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 0.986 seconds (process running for 1.312)
-2024-05-11 19:04:22.097 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 19:04:24.531 [http-nio-8081-exec-3] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 19:04:27.322 [http-nio-8081-exec-5] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 19:04:27.454 [http-nio-8081-exec-5] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 19:05:01.105 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 1930 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 19:05:01.105 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 19:05:01.921 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.096 seconds (process running for 1.511)
-2024-05-11 19:05:04.809 [http-nio-8081-exec-1] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 19:05:05.004 [http-nio-8081-exec-1] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 19:05:26.363 [http-nio-8081-exec-4] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 19:05:51.981 [http-nio-8081-exec-6] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 19:05:52.115 [http-nio-8081-exec-6] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 19:05:53.888 [http-nio-8081-exec-9] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 19:06:00.512 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 19:06:03.097 [http-nio-8081-exec-3] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 19:06:08.235 [http-nio-8081-exec-6] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/1
-2024-05-11 19:06:08.363 [http-nio-8081-exec-6] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/1
-2024-05-11 19:06:11.954 [http-nio-8081-exec-9] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 19:08:18.843 [http-nio-8081-exec-3] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/1
-2024-05-11 19:08:18.989 [http-nio-8081-exec-3] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/1
-2024-05-11 19:09:34.212 [http-nio-8081-exec-8] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/1
-2024-05-11 19:09:34.343 [http-nio-8081-exec-8] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/1
-2024-05-11 19:09:47.559 [http-nio-8081-exec-1] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 19:15:13.086 [http-nio-8081-exec-6] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 19:17:22.711 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 2301 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
-2024-05-11 19:17:22.711 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
-2024-05-11 19:17:23.568 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.057 seconds (process running for 1.446)
-2024-05-11 19:17:27.557 [http-nio-8081-exec-1] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 19:17:37.030 [http-nio-8081-exec-3] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 19:17:38.258 [http-nio-8081-exec-5] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 19:17:38.976 [http-nio-8081-exec-7] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 19:17:42.352 [http-nio-8081-exec-2] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 19:17:44.156 [http-nio-8081-exec-4] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 19:17:44.288 [http-nio-8081-exec-4] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 19:18:59.204 [http-nio-8081-exec-10] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 19:19:00.275 [http-nio-8081-exec-2] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 19:19:00.409 [http-nio-8081-exec-2] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 19:19:09.629 [http-nio-8081-exec-5] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 19:20:20.568 [http-nio-8081-exec-10] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 19:20:21.758 [http-nio-8081-exec-2] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 19:20:22.758 [http-nio-8081-exec-4] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 19:20:24.529 [http-nio-8081-exec-9] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 19:20:25.540 [http-nio-8081-exec-1] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 19:20:25.672 [http-nio-8081-exec-1] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 19:20:29.875 [http-nio-8081-exec-4] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 19:20:31.136 [http-nio-8081-exec-6] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 19:20:31.269 [http-nio-8081-exec-6] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 19:20:38.676 [http-nio-8081-exec-9] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 19:21:16.198 [http-nio-8081-exec-1] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 19:21:16.338 [http-nio-8081-exec-1] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 19:21:18.679 [http-nio-8081-exec-4] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 19:21:20.256 [http-nio-8081-exec-6] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 19:21:20.389 [http-nio-8081-exec-6] INFO  c.project.service.ZadanieServiceImpl.getZadanie(42) - REQUEST -> GET /api/zadania/1
-2024-05-11 19:21:21.425 [http-nio-8081-exec-10] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 19:21:22.206 [http-nio-8081-exec-2] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 19:21:25.029 [http-nio-8081-exec-4] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
-2024-05-11 19:21:26.406 [http-nio-8081-exec-6] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
-2024-05-11 19:21:27.605 [http-nio-8081-exec-8] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
-2024-05-11 19:21:28.705 [http-nio-8081-exec-10] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
+2024-05-13 09:21:08.363 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 8121 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
+2024-05-13 09:21:08.368 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
+2024-05-13 09:21:09.335 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.181 seconds (process running for 1.518)
+2024-05-13 09:21:23.078 [http-nio-8081-exec-4] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2024-05-13 09:21:27.973 [http-nio-8081-exec-6] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
+2024-05-13 09:21:28.622 [http-nio-8081-exec-8] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
+2024-05-13 09:21:29.298 [http-nio-8081-exec-10] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
+2024-05-13 09:21:33.426 [http-nio-8081-exec-2] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
+2024-05-13 09:21:34.724 [http-nio-8081-exec-4] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
+2024-05-13 09:21:36.004 [http-nio-8081-exec-6] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2024-05-13 09:21:41.045 [http-nio-8081-exec-8] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
+2024-05-13 09:21:42.054 [http-nio-8081-exec-10] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
+2024-05-13 09:21:43.158 [http-nio-8081-exec-2] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
+2024-05-13 09:21:49.002 [http-nio-8081-exec-7] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
+2024-05-13 09:21:53.371 [http-nio-8081-exec-9] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
+2024-05-13 09:21:55.958 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2024-05-13 09:21:58.374 [http-nio-8081-exec-3] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
+2024-05-13 09:22:15.972 [http-nio-8081-exec-5] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2024-05-13 09:22:23.242 [http-nio-8081-exec-8] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
+2024-05-13 09:22:25.056 [http-nio-8081-exec-10] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2024-05-13 09:22:32.439 [http-nio-8081-exec-2] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
+2024-05-13 09:23:20.199 [http-nio-8081-exec-8] INFO  c.project.service.StudentServiceImpl.setStudent(69) - REQUEST -> POST /api/students
+2024-05-13 09:23:20.385 [http-nio-8081-exec-8] INFO  c.project.service.StudentServiceImpl.setStudent(81) - REQUEST (location) -> GET http://localhost:8080/api/students/3
+2024-05-13 09:23:20.495 [http-nio-8081-exec-9] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
+2024-05-13 09:23:29.338 [http-nio-8081-exec-3] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/3
+2024-05-13 09:23:29.474 [http-nio-8081-exec-3] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/3
+2024-05-13 09:23:37.502 [http-nio-8081-exec-7] INFO  c.project.service.StudentServiceImpl.setStudent(56) - REQUEST -> PUT /api/students/3
+2024-05-13 09:23:37.660 [http-nio-8081-exec-8] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
+2024-05-13 09:23:41.791 [http-nio-8081-exec-2] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
+2024-05-13 09:23:43.004 [http-nio-8081-exec-4] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2024-05-13 09:23:44.071 [http-nio-8081-exec-5] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
+2024-05-13 09:23:46.971 [http-nio-8081-exec-9] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2024-05-13 09:23:51.688 [http-nio-8081-exec-4] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
+2024-05-13 12:21:23.661 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarting(50) - Starting ProjectRestApiApplication using Java 21.0.2 with PID 3331 (/Users/mefunio/Downloads/project-web-app/build/classes/java/main started by mefunio in /Users/mefunio/Downloads/project-web-app)
+2024-05-13 12:21:23.662 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStartupProfileInfo(654) - No active profile set, falling back to 1 default profile: "default"
+2024-05-13 12:21:24.494 [restartedMain] INFO  c.project.ProjectRestApiApplication.logStarted(56) - Started ProjectRestApiApplication in 1.191 seconds (process running for 1.573)
+2024-05-13 12:21:32.898 [http-nio-8081-exec-6] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2024-05-13 12:21:41.869 [http-nio-8081-exec-9] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
+2024-05-13 12:21:43.695 [http-nio-8081-exec-1] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/1
+2024-05-13 12:21:43.836 [http-nio-8081-exec-1] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/1
+2024-05-13 12:21:45.483 [http-nio-8081-exec-3] INFO  c.project.service.StudentServiceImpl.setStudent(56) - REQUEST -> PUT /api/students/1
+2024-05-13 12:21:45.625 [http-nio-8081-exec-4] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
+2024-05-13 12:21:52.239 [http-nio-8081-exec-6] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
+2024-05-13 12:21:53.083 [http-nio-8081-exec-8] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2024-05-13 12:21:53.817 [http-nio-8081-exec-10] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
+2024-05-13 12:41:00.413 [http-nio-8081-exec-5] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/1
+2024-05-13 12:41:00.584 [http-nio-8081-exec-5] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/1
+2024-05-13 12:41:06.147 [http-nio-8081-exec-10] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
+2024-05-13 12:41:07.669 [http-nio-8081-exec-2] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/3
+2024-05-13 12:41:07.803 [http-nio-8081-exec-2] INFO  c.project.service.StudentServiceImpl.getStudent(40) - REQUEST -> GET /api/students/3
+2024-05-13 12:41:16.641 [http-nio-8081-exec-7] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
+2024-05-13 12:57:19.247 [http-nio-8081-exec-1] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2024-05-13 12:57:20.093 [http-nio-8081-exec-3] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
+2024-05-13 12:57:20.843 [http-nio-8081-exec-4] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
+2024-05-13 12:57:22.255 [http-nio-8081-exec-10] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2024-05-13 12:57:22.756 [http-nio-8081-exec-1] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
+2024-05-13 12:57:23.657 [http-nio-8081-exec-3] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
+2024-05-13 12:57:24.276 [http-nio-8081-exec-4] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2024-05-13 12:57:25.172 [http-nio-8081-exec-8] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
+2024-05-13 12:57:25.655 [http-nio-8081-exec-10] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2024-05-13 12:58:13.137 [http-nio-8081-exec-3] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=
+2024-05-13 12:58:18.506 [http-nio-8081-exec-8] INFO  c.project.service.ZadanieServiceImpl.getZadania(114) - REQUEST -> GET /api/zadania?page=0&size=20&sort=
+2024-05-13 12:58:18.835 [http-nio-8081-exec-10] INFO  c.project.service.ProjektServiceImpl.getProjekty(106) - REQUEST -> GET /api/projekty?page=0&size=20&sort=
+2024-05-13 12:58:19.440 [http-nio-8081-exec-2] INFO  c.project.service.StudentServiceImpl.getStudents(112) - REQUEST -> GET /api/students?page=0&size=20&sort=

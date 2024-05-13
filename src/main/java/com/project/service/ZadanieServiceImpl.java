@@ -117,7 +117,11 @@ public class ZadanieServiceImpl implements ZadanieService{
 
     @Override
     public Page<Zadanie> searchByProjektId(Integer projektId, Pageable pageable) {
-        return null;
+        URI uri = ServiceUtil.getUriComponent(getResourcePath(), pageable)
+                .queryParam("projektId", projektId)
+                .build().toUri();
+        logger.info("REQUEST -> GET {}", uri);
+        return getPage(uri);
     }
 
     private Page<Zadanie> getPage(URI uri) {
