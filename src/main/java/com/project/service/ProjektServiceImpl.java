@@ -46,7 +46,7 @@ public class ProjektServiceImpl implements ProjektService {
         return Optional.ofNullable(projekt);
     }
     @Override
-    public Projekt setProjekt(Projekt projekt) {
+    public void setProjekt(Projekt projekt) {
         if (projekt.getProjektId() != null) { // modyfikacja istniejącego projektu
             String resourcePath = getResourcePath(projekt.getProjektId());
             logger.info("REQUEST -> PUT {}", resourcePath);
@@ -60,7 +60,6 @@ public class ProjektServiceImpl implements ProjektService {
                         throw new HttpException(res.getStatusCode(), res.getHeaders());
                     })
                     .toBodilessEntity();
-            return projekt;
         } else { //utworzenie nowego projektu
 // po dodaniu projektu zwracany jest w nagłówku Location - link do utworzonego zasobu
             String resourcePath = getResourcePath();
@@ -77,7 +76,8 @@ public class ProjektServiceImpl implements ProjektService {
                     .toBodilessEntity();
             URI location = response.getHeaders().getLocation();
             logger.info("REQUEST (location) -> GET {}", location);
-            return restClient
+	        assert location != null;
+	        restClient
                     .get()
                     .uri(location)
                     .retrieve()

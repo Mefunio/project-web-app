@@ -11,7 +11,7 @@
     <h1>Lista projektów</h1>
     <p>
         <a th:href="@{/studentList}">Lista Studentów</a>
-        <a th:href="@{/zadanieList}">Lista zadań</a>
+        <a th:href="@{/zadanieList}">Lista Zadań</a>
     </p>
     <p>
         <a th:href="@{/projektEdit}">Dodaj projekt</a>
@@ -32,8 +32,8 @@
             <td th:text="${projekt.projektId}">Id</td>
             <td th:text="${projekt.nazwa}">Nazwa</td>
             <td th:text="${projekt.opis}">Opis</td>
-            <td th:text="${#temporals.format(projekt.getDataCzasUtworzenia, 'yyyy-MM-dd HH:mm:ss')}">Utworzony</td>
-            <td th:text="${#temporals.format(projekt.dataOddania, 'yyyy-MM-dd')}">Data oddania</td>
+            <td th:text="${#temporals.format(projekt.dataCzasUtworzenia, 'dd-MM-yyyy HH:mm:ss')}">Utworzony</td>
+            <td th:text="${#temporals.format(projekt.dataOddania, 'dd-MM-yyyy')}">Data oddania</td>
             <td><a th:href="@{/projektEdit(projektId=${projekt.projektId})}">Edytuj</a><br>
                 <a th:href="@{/projektEdit(projektId=${projekt.projektId},delete='true')}">Usuń</a>
             </td>

@@ -10,7 +10,7 @@
     <form action="#" th:action="@{/studentEdit}" th:object="${student}" method="POST"
           th:with="akcja=*{studentId} ? (${isDelete}?'delete':'update') :'create', opis=*{studentId} ?
 (${isDelete}?'Usuń':'Aktualizuj') : 'Utwórz'" autocomplete="off">
-        <h1 th:text="${opis} + ' projekt'">Edytuj studenta</h1>
+        <h1 th:text="${opis} + ' studenta'">Edytuj studenta</h1>
         <div class="err" th:if="${#fields.hasErrors('*')}">
             BŁĘDY:
             <ul>
@@ -22,26 +22,35 @@
                 <input class="btn" type="submit" name="create" value="create" th:name="${akcja}" th:value="${opis}" />
                 <input class="btn" type="submit" name="cancel" value="Anuluj" />
             </div>
+            <br>
             <div th:if="*{studentId}">
                 <label for="studentId" class="lbl">Id:</label>
-                <input th:field="*{studentId}" class="fld" id="studentId" readonly />
+                <input type="number" th:field="*{studentId}" class="fld" id="studentId" readonly />
             </div>
             <div>
                 <label for="imie" class="lbl">Imie:</label>
-                <input th:field="*{imie}" class="fld" id="imie" th:class="${#fields.hasErrors('opis')}? 'err' : 'fld'" size="45" />
+                <input th:field="*{imie}" class="fld" id="imie" th:class="${#fields.hasErrors('imie')}? 'err' : 'fld'" size="45" />
                 <span class="err" th:if="${#fields.hasErrors('imie')}" th:errors="*{imie}">Error</span>
             </div>
             <div>
                 <label for="nazwisko" class="lbl">Nazwisko:</label>
-                <textarea class="fld" rows="3" cols="47" th:field="*{opis}">Opis</textarea>
+                <input th:field="*{nazwisko}" class="fld" id="nazwisko" th:class="${#fields.hasErrors('nazwisko')}? 'err' : 'fld'" size="45" />
+                <span class="err" th:if="${#fields.hasErrors('nazwisko')}" th:errors="*{nazwisko}">Error</span>
             </div>
             <div>
-                <label for="dataOddania" class="lbl">Data oddania:</label>
-                <input th:field="*{dataOddania}" class="fld" type="text" size="10" /><i>(RRRR-MM-DD)</i>
+                <label for="nrIndeksu" class="lbl">Nr indeksu:</label>
+                <input type="number" th:field="*{nrIndeksu}" class="fld" id="nrIndeksu" th:class="${#fields.hasErrors('nrIndeksu')}? 'err' : 'fld'" size="45" />
+                <span class="err" th:if="${#fields.hasErrors('nrIndeksu')}" th:errors="*{nrIndeksu}">Error</span>
             </div>
-            <div th:if="*{getDataCzasUtworzenia}">
-                <label for="dataczasUtworzenia" class="lbl">Utworzony:</label>
-                <input th:field="*{getDataCzasUtworzenia}" class="fld" type="text" size="23" readonly />
+            <div>
+                <label for="email" class="lbl">Email:</label>
+                <input type="email" th:field="*{email}" class="fld" id="email" th:class="${#fields.hasErrors('email')}? 'err' : 'fld'" size="45" />
+                <span class="err" th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Error</span>
+            </div>
+            <div>
+                <label for="stacjonarny" class="lbl">Stacjonarny:</label>
+                <input type="checkbox" th:field="*{stacjonarny}" class="fld" id="stacjonarny" th:class="${#fields.hasErrors('stacjonarny')}? 'err' : 'fld'" size="45" />
+                <span class="err" th:if="${#fields.hasErrors('stacjonarny')}" th:errors="*{stacjonarny}">Error</span>
             </div>
         </div>
     </form>

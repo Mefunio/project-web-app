@@ -14,7 +14,7 @@ import com.project.model.Projekt;
 import com.project.service.ProjektService;
 @Controller
 public class ProjectController {
-    private ProjektService projektService;
+    private final ProjektService projektService;
     //@Autowired – przy jednym konstruktorze wstrzykiwanie jest zadaniem domyślnym, adnotacji nie jest potrzebna
     public ProjectController(ProjektService projektService) {
 
@@ -27,7 +27,7 @@ public class ProjectController {
     }
     @GetMapping("/projektEdit")
     public String projektEdit(@RequestParam(name = "projektId", required = false) Integer projektId, Model model) {
-        if(projektId != null) {
+        if(projektId != null && projektService.getProjekt(projektId).isPresent()) {
             model.addAttribute("projekt", projektService.getProjekt(projektId).get());
         }else {
             Projekt projekt = new Projekt();
@@ -42,7 +42,7 @@ public class ProjectController {
             return "projektEdit";
         }
         try {
-            projekt = projektService.setProjekt(projekt);
+	        projektService.setProjekt(projekt);
         } catch (HttpStatusCodeException e) {
             bindingResult.rejectValue(Strings.EMPTY, String.valueOf(e.getStatusCode().value()),
                     e.getStatusCode().toString());

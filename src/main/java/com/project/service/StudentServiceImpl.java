@@ -1,14 +1,13 @@
 package com.project.service;
 
 import com.project.exception.HttpException;
-import com.project.model.Projekt;
 import com.project.model.Student;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.data.domain.Page;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.data.domain.Pageable;
+import org.springframework.http.HttpStatusCode;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -51,7 +50,7 @@ public class StudentServiceImpl implements StudentService {
     }
 
     @Override
-    public Student setStudent(Student student) {
+    public void setStudent(Student student) {
         if (student.getStudentId() != null) {
             String resourcePath = getResourcePath(student.getStudentId());
             logger.info("REQUEST -> PUT {}", resourcePath);
@@ -65,7 +64,6 @@ public class StudentServiceImpl implements StudentService {
                         throw new HttpException(res.getStatusCode(), res.getHeaders());
                     })
                     .toBodilessEntity();
-            return student;
         } else {
             String resourcePath = getResourcePath();
             logger.info("REQUEST -> POST {}", resourcePath);
@@ -82,7 +80,7 @@ public class StudentServiceImpl implements StudentService {
             URI location = response.getHeaders().getLocation();
             logger.info("REQUEST (location) -> GET {}", location);
 	        assert location != null;
-	        return restClient
+            restClient
                     .get()
                     .uri(location)
                     .retrieve()
@@ -109,14 +107,14 @@ public class StudentServiceImpl implements StudentService {
     }
 
     @Override
-    public Page<Projekt> getStudenci(Pageable pageable) {
+    public Page<Student> getStudents(Pageable pageable) {
         URI uri = ServiceUtil.getURI(getResourcePath(), pageable);
         logger.info("REQUEST -> GET {}", uri);
         return getPage(uri);
     }
 
     @Override
-    public Page<Projekt> searchByNazwisko(String nazwisko, Pageable pageable) {
+    public Page<Student> searchByNazwisko(String nazwisko, Pageable pageable) {
         URI uri = ServiceUtil
                 .getUriComponent(getResourcePath(), pageable)
                 .queryParam("nazwisko", nazwisko)
@@ -143,10 +141,10 @@ public class StudentServiceImpl implements StudentService {
         return Optional.ofNullable(student);
     }
 
-    private Page<Projekt> getPage(URI uri) {
+    private Page<Student> getPage(URI uri) {
         return restClient.get()
                 .uri(uri.toString())
                 .retrieve()
-                .body(new ParameterizedTypeReference<RestResponsePage<Projekt>>(){});
+                .body(new ParameterizedTypeReference<RestResponsePage<Student>>(){});
     }
 }

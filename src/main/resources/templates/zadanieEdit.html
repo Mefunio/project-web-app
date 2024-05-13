@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <link th:href="@{/css/edit-style.css}" rel="stylesheet" /> <!-- plik z...\resources\static\css\edit-style.css -->
-    <title>Edycja projektu</title>
+    <title>Edycja zadania</title>
 </head>
 <body>
 <div class="root" th:with="isDelete=${#strings.equalsIgnoreCase(param.delete,'true')}">
-    <form action="#" th:action="@{/projektEdit}" th:object="${projekt}" method="POST"
-          th:with="akcja=*{projektId} ? (${isDelete}?'delete':'update') :'create', opis=*{projektId} ?
+    <form action="#" th:action="@{/zadanieEdit}" th:object="${zadanie}" method="POST"
+          th:with="akcja=*{zadanieId} ? (${isDelete}?'delete':'update') :'create', opis=*{zadanieId} ?
 (${isDelete}?'Usuń':'Aktualizuj') : 'Utwórz'" autocomplete="off">
-        <h1 th:text="${opis} + ' projekt'">Edytuj projekt</h1>
+        <h1 th:text="${opis} + ' zadanie'">Edytuj zadanie</h1>
         <div class="err" th:if="${#fields.hasErrors('*')}">
             BŁĘDY:
             <ul>
@@ -23,9 +23,9 @@
                 <input class="btn" type="submit" name="cancel" value="Anuluj" />
             </div>
             <br>
-            <div th:if="*{projektId}">
-                <label for="projektId" class="lbl">Id:</label>
-                <input type="number" th:field="*{projektId}" class="fld" id="projektId" readonly />
+            <div th:if="*{zadanieId}">
+                <label for="zadanieId" class="lbl">Id:</label>
+                <input type="number" th:field="*{zadanieId}" class="fld" id="zadanieId" readonly />
             </div>
             <div>
                 <label for="nazwa" class="lbl">Nazwa:</label>
@@ -33,16 +33,16 @@
                 <span class="err" th:if="${#fields.hasErrors('nazwa')}" th:errors="*{nazwa}">Error</span>
             </div>
             <div>
+                <label for="kolejnosc" class="lbl">Kolejnosc:</label>
+                <input type="number" th:field="*{kolejnosc}" class="fld" id="kolejnosc" size="5" />
+            </div>
+            <div>
                 <label for="opis" class="lbl">Opis:</label>
                 <textarea class="fld" id="opis" rows="3" cols="47" th:field="*{opis}">Opis</textarea>
             </div>
-            <div>
-                <label for="dataOddania" class="lbl">Data oddania:</label>
-                <input type="date" th:field="*{dataOddania}" class="fld" id="dataOddania" size="10" /><i>(DD-MM-RRRR)</i>
-            </div>
-            <div th:if="*{dataCzasUtworzenia}">
-                <label for="dataCzasUtworzenia" class="lbl">Utworzony:</label>
-                <input th:field="*{dataCzasUtworzenia}" class="fld" id="dataCzasUtworzenia" type="text" size="23" readonly />
+            <div th:if="*{dataCzasDodania}">
+                <label for="dataCzasDodania" class="lbl">Dodany:</label>
+                <input type="text" th:field="*{dataCzasDodania}" class="fld" id="dataCzasDodania" size="23" readonly />
             </div>
         </div>
     </form>
